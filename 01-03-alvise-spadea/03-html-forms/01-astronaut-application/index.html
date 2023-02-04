@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Astronaut Application</title>
+    </head>
+    <body>
+        <form action="https://astronaut-app.free.beeceptor.com" target="_self" method="post">
+            <label for="first_name">First Name</label>
+            <input type="text" name="first_name" id="first_name" placeholder="Enter your First Name" required>
+            <label for="middle_name">Middle Name</label>
+            <input type="text" name="middle_name" id="middle_name" placeholder="(Optional)Enter your middle name">
+            <label for="last_name">Last Name</label>
+            <input type="text" name="last_name" id="last_name" required placeholder="Enter your Last Name">
+        
+        <p>Choose the mission you want to apply for:</p>
+        
+            <label for="mission">Choose Mission </label>
+            <select name="mission" id="mission">
+                <option value="near-earthObjectSurveyor">Near-Earth Object Surveyor</option>
+                <option value="europaClipper">Europa Clipper</option>
+                <option value="spherex">SPHEREx</option>
+                <option value="sunrise">SunRISE</option>
+                <option value="asthros">ASTHROS</option>
+                <option value="psyche">Psyche</option>
+                <option value="lunarTrailblazer">Lunar Trailblazer</option>
+                <option value="euclid">Euclid</option>
+                <option value="lunarFlashlight">Lunar Flashlight</option>
+                <option value="nearEarthAsteroidScout">Near Earth Asteroid Scout</option>
+                <option value="veritas">VERITAS</option>
+                <option value="theNancyGraceRomanTelescope">The Nancy Grace Roman Telescope</option>
+                <option value="nisar">NISAR</option>
+                <option value="maia">MAIA</option>
+                <option value="inspire">INSPIRE</option>
+            </select>
+       
+        
+            <p>Select your Gender:</p>
+            <input type="radio" name="gender" id="male" value="man">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="women">
+            <label for="female">Female</label>
+            <p>Enter your age:</p>
+            <input type="number" name="age" id="age" max="50" min="24" required>
+            <label for="age"></label>
+            <p>Hair Color:</p>
+            <label for="hair"></label>
+            <select name="hair" id="hair">
+            <option value="black">Black</option>
+            <option value="brown">Brown</option>
+            <option value="auburn">Auburn</option>
+            <option value="red">Red</option>
+            <option value="blond">Blond</option>
+            <option value="gray/white">Gray/White</option>
+            <option value="none">None</option>
+            </select>
+            <p>Eye Color:</p>
+            <label for="eye"></label>
+            <select name="eye" id="eye">
+            <option value="amber">Amber</option>
+            <option value="blue">Blue</option>
+            <option value="brown">Brown</option>
+            <option value="gray">Gray</option>
+            <option value="green">Green</option>
+            <option value="hazel">Hazel</option>
+            <option value="red">Red</option>
+            </select>
+            <p>Contact Information:</p>
+            <label for="email"></label>
+            <input type="email" name="email" id="email" placeholder="Email Here" required>
+            <label for="phone"></label>
+            <input type="tel" name="phone" id="phone" placeholder="Your Phone Number Here" maxlength="10" required>
+            <p>Address:</p>
+            <label for="address"></label>
+            <textarea name="address" id="address" cols="40" rows="1" placeholder="Enter your address" required></textarea>
+            <div>
+            <label for="weight">Weight:</label>
+            <input type="number" name="weight" id="weight" max="100" min="45" placeholder="Weight" required>
+            </div>
+            <p>Tell us about you in short:</p>
+            <label for="bio"></label>
+            <textarea name="bio" id="bio" cols="50" rows="5" maxlength="255"></textarea>
+            <p>
+            <button type="submit">Submit</button> <button type="reset">Reset Form</button>
+            </p>
+        </form>
+    </body>
+</html>
