@@ -1,9 +1,0 @@
-Il parametro "?v=1.0" nell'URL della riga di codice specificata serve come query string per indicare la versione corrente del file "styles.css". Ciò è utile per il browser in 
-quanto quando si aggiorna la versione il browser possa scaricare la versione più nuova invece di usare la versione memorizzata nella memoria cache.
-
-La cache è una memoria temporanea utilizzata dai browser web, dai sistemi operativi e da altri programmi per memorizzare i dati che vengono utilizzati frequentemente. 
-Quando si visita un sito web, il browser scarica i file necessari per visualizzare la pagina, come HTML, CSS e JS. Invece di scaricare questi file ogni volta che si visita
-nuovamente la pagina, il browser li memorizza nella cache del dispositivo, in modo che possano essere recuperati rapidamente la prossima volta che si visita la pagina.
-Se da una parte ciò permette un caricamento della pagina molto più rapido dall'altra può causare problemi se i file contenuti nella cache sono obsoleti, in tal caso sarà 
-necessario svuotare la cache del browser per visualizzare la versione più recente del sito web.
-I dati che è possibile memorizzare sono una vasta gamma, come immagini, file multimediali ecc.
