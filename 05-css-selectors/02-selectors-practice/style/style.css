@@ -440,7 +440,7 @@ div:nth-of-type(3) p:nth-child(3) em{
     color: white;
     font-size: 20px;
 }
-[checked]{
+input:checked{
     margin-left: 50px;
 }
 label{
