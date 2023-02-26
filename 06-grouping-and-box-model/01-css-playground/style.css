@@ -383,3 +383,11 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
   }
+  span{
+    color:#75151E ;
+    background-color:#35682D ;
+    font-size: 17px;
+    text-decoration: wavy;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
