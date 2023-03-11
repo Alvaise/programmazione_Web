@@ -1,0 +1,28 @@
+div{
+    box-sizing: content-box;
+    border: solid black 5px;
+    margin: 50px;
+    display: inline-block;
+    padding: 25px 75px;
+    border-radius: 10%;
+}
+div::after{
+    box-sizing: border-box;
+    content:'O';
+    position: relative;
+    top: -45px;
+    left: 115px;
+    border-radius: 100%;
+    border: solid ;
+    padding: 25px;
+}
+div::before{
+    box-sizing: border-box;
+    content:'O';
+    position: relative;
+    top: -45px;
+    right: 115px;
+    border-radius: 100%;
+    border: solid;
+    padding: 25px;
+}
