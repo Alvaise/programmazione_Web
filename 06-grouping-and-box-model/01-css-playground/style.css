@@ -376,9 +376,14 @@ p{
   margin-right: 75px;
   padding-left: 50px;
   padding-right: 75px;
+  font-size: larger;
 }
 picture, img{
   display: block;
   width: 500px;
-  margin-left: 50px;
+  margin-left: 120px;
+}
+footer{
+  color: white;
+  background-color: black;
 }
