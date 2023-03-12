@@ -1,54 +1,98 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta lang="en">
         <meta charset="UTF-8">
-        <title>CSS Playground</title>
+        <title>Styled news page</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <meta name="author" content="Alvise">
         <meta name="description" content="css exercise">
     </head>
     <body>
         <header>
-            
+            <img src="https://www.fuoritraiettoria.com/wp-content/uploads/2022/12/FUORITRAIETTORIA_BLACK_270X72-copia-1.png" alt="FT logo header">
         </header>
         <nav>
-
+            <ul>
+                <li><a href="#f1">FORMULA 1</a></li>
+                <li><a href="#mgp">MOTO GP</a></li>
+                <li><a href="#wec">MONDIALE ENDURANCE, WEC</a></li>
+                <li><a href="#wrc">RALLY, WRC</a></li>
+            </ul>
         </nav>
         <main> 
-
             <section>
+                <a name="f1"><h2>Formula 1 </h2></a> 
                 <article>
-                    
+                    <img src="data:image/jpeg;base64,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" alt="steiner-schumacher">
+                    <p>Steiner "not ashamed" about explosive Schumacher criticism in Drive to Survive</p>
                 </article>
+                <article>
+                    <img src="https://cdn-7.motorsport.com/images/amp/0ZRMjxL0/s1000/lance-stroll-aston-martin-amr2.webp" alt="2023-f1-field-bahrain-gp">
+                    <p>Which F1 team is slowest in 2023?</p>
+                </article>
+                <article>
+                    <img src="https://cdn-6.motorsport.com/images/amp/YBeAJzl2/s1000/alex-albon-williams-racing-fw4.webp" alt="williams-2023">
+                    <p>Williams winter F1 gains second only to Aston Martin - Albon</p>
+                </article>
+        </section>
+        <section>
+            <a name="mgp"><h2>Moto GP</h2></a>
             <article>
-                
+                <img src="https://cdn-5.motorsport.com/images/amp/6O1Rnnm2/s1000/fabio-quartararo-yamaha-factor.webp" alt="quartararo">
+                <p>Quartararo hails “massive step” with 2023 Yamaha on final MotoGP test day</p>
             </article>
             <article>
-                
+                <img src="https://cdn-1.motorsport.com/images/amp/YKEZnnk0/s1000/motogp-portimao-march-testing--2.webp" alt="Ducati Bagnaia">
+                <p>Portugal MotoGP test: Bagnaia tops final day of pre-season with lap record</p>
+            </article>
+            <article>
+                <img src="https://cdn-9.motorsport.com/images/amp/Y99dxQbY/s1000/fabio-di-giannantonio-gresini-.webp" alt="fabio-di-giannantonio-gresini">
+                <p>Concussed Di Giannantonio slams ‘wall-like’ Portugal MotoGP gravel traps</p>
             </article>
         </section>
         <section>
+            <a name="wec"><h2>WEC,Mondiale Endurance</h2></a>
             <article>
-                
+                <img src="https://cdn-8.motorsport.com/images/amp/6gpA8VP0/s1000/51-ferrari-af-corse-ferrari-49.webp" alt="ferrari-499p-sebring">
+                <p>WEC Prologue: #51 Ferrari out of Sunday action with crash damage</p>
             </article>
             <article>
-                
+                <img src="https://cdn-8.motorsport.com/images/amp/6VR1v4V6/s1000/le-mans-24-hours-of-le-mans-20-2.webp" alt="gt-lemans">
+                <p>GT3 cars will be "spectacular" and "insane" at Le Mans, say WEC drivers</p>
             </article>
             <article>
-                
+                <img src="https://cdn-6.motorsport.com/images/amp/0RrVn3M0/s1000/51-ferrari-af-corse-ferrari-49.webp" alt="ferrari-499p-porschelmh-sebring">
+                <p>The first impressions from trackside of WEC's new era</p>
             </article>
         </section>
         <section>
+            <a name="wrc"><h2>Rally,WRC</h2></a>
             <article>
-                
+                <img src="https://cdn-6.motorsport.com/images/amp/68yPa840/s1000/toyota-yaris-h2-1.webp" alt="">
+                <p>Hydrogen power requires more development, says Toyota WRC boss</p>    
             </article>
             <article>
-                
+                <img src="https://cdn-7.motorsport.com/images/amp/6b7keG30/s1000/ott-tanak-martin-jarveoja-m-sp.webp" alt="ott-tanak-martin-jarveoja-m-sp">
+                <p>FIA introduces rule to make WRC Rally1 cars louder in EV mode</p>
             </article>
             <article>
-                
+                <img src="https://cdn-7.motorsport.com/images/amp/Y99dp3xY/s1000/malcolm-wilson-team-principal-.webp" alt="malcolm-wilson-team-principal">
+                <p>M-Sport boss Malcolm Wilson drives WRC Rally1 Ford Puma</p>
             </article>
         </section>
     </main>
+    <aside>
+        ARTICOLI PIÙ LETTI
+        <ul>
+            <li>Mercedes vows no 'finger-pointing' despite hurt of F1 form</li>
+            <li>Yamaha facing difficulties in homologating 2023 MotoGP aero fairing</li>
+            <li>WEC Prologue: Cadillac beats Toyota in second Sebring session</li>
+            <li>M-Sport hopes Ford's Red Bull F1 partnership can strengthen WRC team</li>
+        </ul>
+    </aside>
+    <footer>
+        <p>&copy Alvise, All right not reserved</p>
+    </footer>
     </body>
 </html>
