@@ -15,8 +15,8 @@ div::after{
     border: solid black;
     border-radius: 100%;
     position: relative;
-    top: 30px;
-    right: 30px;
+    top: -30px;
+    right: -30px;
     width: 20px;
     height: 30px;
 
@@ -27,8 +27,8 @@ div::before{
     border: solid black;
     border-radius: 100%;
     position: relative;
-    top: 30px;
-    left: 30px;
+    top: -30px;
+    left: -30px;
     width: 20px;
     height: 30px;
     align-content: center;
