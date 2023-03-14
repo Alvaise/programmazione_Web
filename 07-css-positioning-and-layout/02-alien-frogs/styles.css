@@ -38,9 +38,9 @@ body div:nth-child() {
     height: 100px;
 }
 
-body div:nth-child(){
+body div {
     background-color: green;
 }
-body div:nth-child(){
+body div:nth-child(3n-3){
     background-color: orange;
 }
