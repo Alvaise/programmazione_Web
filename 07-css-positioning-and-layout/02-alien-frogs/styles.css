@@ -33,10 +33,14 @@ div::before{
     height: 30px;
     align-content: center;
 }
-.frog_type1_small{
-    background-color: greenyellow;
-}
-.frog_type1_small {
+body div:nth-child() {
     width: 180px;
     height: 100px;
+}
+
+body div:nth-child(){
+    background-color: green;
+}
+body div:nth-child(){
+    background-color: orange;
 }
