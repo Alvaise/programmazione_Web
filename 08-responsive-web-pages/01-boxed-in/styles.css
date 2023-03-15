@@ -355,10 +355,7 @@
     box-sizing: inherit;
   }
 
-  img{
-    display:block;
-    margin: auto;
-  }
+  
 
   @media screen and (min-width:576px ) {
     
