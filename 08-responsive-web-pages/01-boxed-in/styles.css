@@ -360,18 +360,18 @@
     margin: auto;
   }
 
-  @media screen(min-width:) {
+  @media screen and (min-width:576px ) {
     
   }
-  @media screen(min-width:) {
+  @media screen and (min-width:768px )  {
     
   }
-  @media screen(min-width:) {
+  @media screen and (min-width:992px ) {
     
   }
-  @media screen(min-width:) {
+  @media screen and( min-width:1024 ) {
     
   }
-  @media screen(min-width:) {
+  @media screen and (min-width:1200px ) {
     
   }
