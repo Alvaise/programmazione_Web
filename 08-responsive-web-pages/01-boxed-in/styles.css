@@ -374,29 +374,34 @@
     div{
       max-width: 479px;
       width: 100%;
+      background-color: aqua;
     }
   }
   @media only screen and (min-width: 480px) {
     div{
       max-width: 575px;
       width: 100%;
+      background-color: aquamarine;
     }
   }
   @media only screen and (min-width:576px ) {
     div{
       max-width: 767px;
       width: 100%;
+      background-color: cadetblue;
     }
   }
   @media only screen and (min-width:768px) {
     div{
       max-width: 1023px;
       width: 100%;
+      background-color: cornflowerblue;
     }
   }
   @media only screen and (min-width: 1024px) {
     div{
       width: 100%;
+      background-color: indianred;
     }
   }
   
