@@ -1,5 +1,5 @@
 /**
-* @file: 03-the-grade-assigner.js
+* @file: 04-the-pluralizer.js
 * @author: Alvise Spadea
 * Exercise on the flow of javascript
 *
