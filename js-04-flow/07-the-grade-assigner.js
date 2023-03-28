@@ -36,6 +36,4 @@
 
 for( let i=60;i<=100;i++){
     console.log('For '+i+', you got '+assignGrade(i));
-
-
 }
