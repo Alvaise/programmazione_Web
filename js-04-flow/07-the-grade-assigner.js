@@ -1,5 +1,5 @@
 /**
-* @file: 05-the-even-odd-reporter.js
+* @file: 07-the-grade-assigner.js
 * @author: Alvise Spadea
 * Exercise on the flow of javascript
 *

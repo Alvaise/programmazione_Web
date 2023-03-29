@@ -1,5 +1,5 @@
 /**
-* @file: 05-the-even-odd-reporter.js
+* @file: 06-multiplication-tables.js
 * @author: Alvise Spadea
 * Exercise on the flow of javascript
 *
