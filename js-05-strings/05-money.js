@@ -3,8 +3,18 @@
  * @author: Alvise Spadea
  * Exercise on Strings in Javascript
  * 
- * Write a JavaScript function called printReverse which has one parameter, a
- * string, and which prints that string in reverse.
- * For example, the call printReverse("foobar") should result in "raboof" being
- * displayed. 
+ * Create a function called Money
+ * It should take a single argument, an amount, and return '<amount> dollars'
+ * Add a smiley at the end if the amount is 1 million. Deal with edge cases 
  */
+
+
+function money(amount) {
+    if(amount>=1000000){
+        return  amount+' dollars :)';
+    }
+    return amount+' dollars';
+}
+
+console.log(money(10));
+console.log(money(1000000));
