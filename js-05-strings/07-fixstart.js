@@ -3,8 +3,24 @@
  * @author: Alvise Spadea
  * Exercise on Strings in Javascript
  * 
- * Write a JavaScript function called printReverse which has one parameter, a
- * string, and which prints that string in reverse.
- * For example, the call printReverse("foobar") should result in "raboof" being
- * displayed. 
+ * Create a function called fixStart.
+ * It should take a single argument, a string, and return a version where all
+ * occurrences of its first character have been replaced with '*', except for the
+ * first character itself.
+ * You can assume that the string is at least one character long.
  */
+
+/**
+ * function that substitute with * from the second instance of first character
+ * @param str
+ * @returns fC+strR the first character plus the string with the character substitued
+ */
+function fixStart(str) {
+    let strR = str.slice(1);
+    let fC=str.charAt(0);
+    const re= new RegExp(fC,"gi");
+    strR= strR.replace(re,'*');
+    return (fC+strR);
+}
+
+console.log(fixStart('pippopapap'));

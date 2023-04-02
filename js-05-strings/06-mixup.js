@@ -17,8 +17,8 @@
  * @returns str1+str2
  */
 function mixUp(str1,str2) {
-    a=str2.slice(0,2);
-    b=str1.slice(0,2);
+    let a=str2.slice(0,2);
+    let b=str1.slice(0,2);
     str1 = a + str1.slice(2);
     str2 = b + str2.slice(2);
     return str1+' '+str2;
