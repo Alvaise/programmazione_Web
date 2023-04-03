@@ -15,6 +15,9 @@
  * @param str
  * @return str
  */
+
+//tieni presente della grammatica inglese, es se finisce in consonante la raddoppi 
+//da migliorare
 function verbing(str) {
     let strE=str.slice(-3);
     if (str.length>=3 && strE!='ing') {

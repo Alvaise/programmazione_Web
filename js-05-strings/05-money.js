@@ -8,7 +8,7 @@
  * Add a smiley at the end if the amount is 1 million. Deal with edge cases 
  */
 
-
+// aggiungi controllo dei casi che non sia un numero o un numero valido
 function money(amount) {
     if(amount>=1000000){
         return  amount+' dollars :)';

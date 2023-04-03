@@ -12,15 +12,19 @@
 
 /**
  * function that substitute with * from the second instance of first character
- * @param str
+ * @param String str
  * @returns fC+strR the first character plus the string with the character substitued
  */
 function fixStart(str) {
+    if (typeof str !== 'string') {
+        console.error("type error");
+    }
     let strR = str.slice(1);
-    let fC=str.charAt(0);
-    const re= new RegExp(fC,"gi");
+    let fC = str.charAt(0);
+    const re = new RegExp(fC,"gi");
     strR= strR.replace(re,'*');
     return (fC+strR);
 }
 
-console.log(fixStart('pipPopaPap'));
+//console.log(fixStart('abcdefgh'));
+console.log(fixStart(18)); 

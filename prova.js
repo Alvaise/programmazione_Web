@@ -30,9 +30,9 @@
 // let alphabetLength = alphabet.length;
 // console.log(alphabetLength);
 //  charAt()
-let greeting = "HELLO WORLD";
-let result = greeting.charAt(6);
-console.log(result);
+// let greeting = "HELLO WORLD";
+// let result = greeting.charAt(6);
+// console.log(result);
 // indexOf()
 // let statement = "Hello world, welcome to the universe.";
 // let wordPosition = statement.indexOf("welcome");
@@ -51,7 +51,7 @@ console.log(result);
 // let alphabetLowercase = "abcdefghijklmnopqrstuvwxyz?'èéèòçò@°à#";
 //  for (let i = 0; i < alphabetLowercase.length; i++) {
     
-   console.log(alphabetLowercase.charCodeAt(i));
+   //console.log(alphabetLowercase.charCodeAt(i));
 //  }
 
 //console.log(/l/.test("The best things in life are free!"));
@@ -65,7 +65,13 @@ years old (lie)`);
 // without using template strings
  */
 
-let name = 'james';
-let age = 25;
-// without using template strings
-console.log('My name is '.concat(name, ' I am').concat(age + 10, ' years old (lie)'));
+// let name = 'james';
+// let age = 25;
+// // without using template strings
+// console.log('My name is '.concat(name, ' I am').concat(age + 10, ' years old (lie)'));
+
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.forEach(Element => console.log(Element));
+// At position 2, add 2 elements, remove 1: 
+fruits.splice(2, 1, "Lemon", "Kiwi");
+fruits.forEach(Element => console.log(Element));
