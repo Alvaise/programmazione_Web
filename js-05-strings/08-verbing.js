@@ -10,6 +10,11 @@
  * If the string length is less than 3, it should leave it unchanged.
  */
 
+/**
+ * function that modify the string according to grammar rules
+ * @param str
+ * @return str
+ */
 function verbing(str) {
     let strE=str.slice(-3);
     if (str.length>=3 && strE!='ing') {
