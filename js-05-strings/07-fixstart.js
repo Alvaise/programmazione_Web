@@ -23,4 +23,4 @@ function fixStart(str) {
     return (fC+strR);
 }
 
-console.log(fixStart('pippopapap'));
+console.log(fixStart('pipPopaPap'));
