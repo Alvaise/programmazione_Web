@@ -9,12 +9,18 @@
  */
 
 // aggiungi controllo dei casi che non sia un numero o un numero valido
-function money(amount) {
-    if(amount>=1000000){
+function money(amount) { 
+    if (typeof amount !== "number" || amount<0) {
+        return NaN;
+    }
+    if(amount>= 1000000){
         return  amount+' dollars :)';
     }
     return amount+' dollars';
 }
 
-console.log(money(10));
+// console.log(money(10));
 console.log(money(1000000));
+console.log(money(10));
+console.log(money(-10));
+console.log(money('ciao'));
