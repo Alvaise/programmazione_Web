@@ -6,7 +6,13 @@
  * Implementing a game similar to Hangman
  */
 
-
+/**
+ * Function to know if a letter is correctly guessed
+ * @param l the letter to guess
+ * @returns gL the array with the word to guess
+ * @returns message to communicate that you have finished your guesses max 6
+ * 
+ */
 function guessLetter(l) {
     let nG = 6;
     if (nG !==0 ) {
