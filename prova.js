@@ -70,8 +70,13 @@ years old (lie)`);
 // // without using template strings
 // console.log('My name is '.concat(name, ' I am').concat(age + 10, ' years old (lie)'));
 
-var fruits = ["Banana", "Orange", "Apple", "Mango"];
-fruits.forEach(Element => console.log(Element));
-// At position 2, add 2 elements, remove 1: 
-fruits.splice(2, 1, "Lemon", "Kiwi");
-fruits.forEach(Element => console.log(Element));
+// var fruits = ["Banana", "Orange", "Apple", "Mango"];
+// fruits.forEach(Element => console.log(Element));
+// // At position 2, add 2 elements, remove 1: 
+// fruits.splice(2, 1, "Lemon", "Kiwi");
+// fruits.forEach(Element => console.log(Element));
+
+let a = [1,2,3,4,5];
+console.log(a);
+console.log(a.splice(3,2));
+console.log(a);
