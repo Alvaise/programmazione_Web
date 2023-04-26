@@ -76,7 +76,28 @@ years old (lie)`);
 // fruits.splice(2, 1, "Lemon", "Kiwi");
 // fruits.forEach(Element => console.log(Element));
 
-let a = [1,2,3,4,5];
-console.log(a);
-console.log(a.splice(3,2));
-console.log(a);
+// let a = [1,2,3,4,5];
+// console.log(a);
+// console.log(a.splice(3,2));
+// console.log(a);
+
+let lizzieTheCat = {
+    age: 18,
+    furColor: 'grey',
+    meow: function() {
+    console.log('meowww');
+    },
+    eat: function(food) {
+    console.log('Yum, I love ' + food);
+    },
+    sleep: function(numMinutes) {
+    for (let i = 0; i < numMinutes; i++) {
+    console.log('z');
+    }
+    }
+    };
+
+lizzieTheCat.meow();
+lizzieTheCat.eat('brown mushy stuff');
+lizzieTheCat.sleep(10);
+console.log(Array.isArray());
