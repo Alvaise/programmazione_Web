@@ -30,3 +30,19 @@ let movieDB = [
         stars: ['Nicholas Hoult','Nicolas Cage','Awkwafina','Ben Schwartz']
     }
 ];
+
+function infoMovie() {
+    let info = movieDB[1];
+    console.log(info.title + ' lasts for '+ info.duration + 'min.'+ ' Stars '+ info.stars.toString());
+}
+
+infoMovie();
+
+function infoMovieDB() {
+    for (let i = 0; i < movieDB.length; i++) {
+        const info = movieDB[i];
+        console.log(info.title + ' lasts for '+ info.duration + 'min.'+ ' Stars '+ info.stars.toString());
+    }
+}
+
+infoMovieDB();
