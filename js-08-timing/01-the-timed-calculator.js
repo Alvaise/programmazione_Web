@@ -1,4 +1,14 @@
 /**
+ * @file: 01-the-timed-calculator.js
+ * @author: Alvise Spadea
+ * Exercise on timing in Javascript
+ * 
+ * We will modify ‘The Calculator’ exercise from the lesson about functions.
+ * Rewrite the last function that performs all 4 operations so that there is a
+ * delay of 3 seconds between one operation and the next.
+ */
+
+/**
  * function that give the square of a given number
  * @param {*} n 
  */
@@ -37,12 +47,17 @@ function areaOfCircle(radius) {
     console.log('The area for a circle with radius '+ radius+ ' is '+ area.toFixed(2));
     return area.toFixed(2);
 }
+/**
+ * function that execute the functions halfNumber(), squareNumber(), areaOfCircle(), percentOF()
+ * @param {*} n 
+ * @returns empty string
+ */
 function calculator(n) {
     let nH= halfNumber(n);
-    let nSq= squareNumber(nH);
-    let a= areaOfCircle(nSq);
-    let p= percentOf(a,nSq);
+    let nSq= setTimeout(squareNumber,3000,nH);
+    let a= setTimeout (areaOfCircle,6000,nSq);
+    let p= setTimeout(percentOf,9000,a,nSq);
     return '';
 }
 
-console.log(calculator(4));
+calculator(4);
