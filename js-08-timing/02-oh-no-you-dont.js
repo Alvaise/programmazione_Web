@@ -10,3 +10,28 @@
  * ‘function cancelled’ to the console.
  */
 
+/**
+ * function that does something useful
+ * @param n 
+ * @return n
+ */
+function useful(n) {
+    n=0;
+    console.log('UAOOOOOOOOO');
+    return n;
+}
+
+/**
+ * function that cancel the useful function
+ */
+function cancel() {
+    clearTimeout(timer);
+    setTimeout(()=>{console.log('function cancelled');},5000);
+}
+
+let timer = setTimeout(useful,10000,10);
+cancel();
+
+
+
+
