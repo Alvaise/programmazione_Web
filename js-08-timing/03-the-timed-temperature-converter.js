@@ -23,11 +23,11 @@
 let n=0;
 let timerId=setInterval(()=>{
     console.log(celsiusToFahrenheit(n)); 
-    n++;
     if(n>100){
         clearInterval(timerId);
         console.log('Stopped after 100');
     }
+    n++;
 },1000,n);
 
 // setTimeout(()=>{
