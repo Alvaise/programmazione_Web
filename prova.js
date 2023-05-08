@@ -81,23 +81,31 @@ years old (lie)`);
 // console.log(a.splice(3,2));
 // console.log(a);
 
-let lizzieTheCat = {
-    age: 18,
-    furColor: 'grey',
-    meow: function() {
-    console.log('meowww');
-    },
-    eat: function(food) {
-    console.log('Yum, I love ' + food);
-    },
-    sleep: function(numMinutes) {
-    for (let i = 0; i < numMinutes; i++) {
-    console.log('z');
-    }
-    }
-    };
+// let lizzieTheCat = {
+//     age: 18,
+//     furColor: 'grey',
+//     meow: function() {
+//     console.log('meowww');
+//     },
+//     eat: function(food) {
+//     console.log('Yum, I love ' + food);
+//     },
+//     sleep: function(numMinutes) {
+//     for (let i = 0; i < numMinutes; i++) {
+//     console.log('z');
+//     }
+//     }
+//     };
 
-lizzieTheCat.meow();
-lizzieTheCat.eat('brown mushy stuff');
-lizzieTheCat.sleep(10);
-console.log(Array.isArray());
+// lizzieTheCat.meow();
+// lizzieTheCat.eat('brown mushy stuff');
+// lizzieTheCat.sleep(10);
+// console.log(Array.isArray());
+
+// function sayHi() {
+//     console.log('Hello');
+//     }
+// setTimeout(sayHi, 1000);
+
+let d = new Date();
+console.log(d.getHours());
