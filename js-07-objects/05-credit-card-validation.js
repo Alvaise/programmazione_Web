@@ -1,5 +1,5 @@
 /**
- * @file: 06-credit-card-validation.js
+ * @file: 05-credit-card-validation.js
  * @author: Alvise Spadea
  * Exercise on object in Javascript
  * 
@@ -37,6 +37,13 @@
 
 function validateCreditCard(numCardStr) {
     let numCardStrCheckLenght = numCardStr.replace(/-/g,'');
+    let contD = 0;
+    let n1 = numCardStrCheckLenght[0];
+    for (let index = 0; index < numCardStrCheckLenght.length; index++) {
+        if (numCardStrCheckLenght[i]!==n1) {
+            contD++;
+        }
+    }
     
 }
 
@@ -45,8 +52,8 @@ console.log(a);
 
 let b = a.replace(/-/g,'');
 
-console.log(b.length);
+//console.log(b[2]);
 
-let c = Number(b);
+//let c = Number(b);
 
 console.log(c + typeof c);
