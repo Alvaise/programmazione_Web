@@ -30,7 +30,4 @@ let timerId=setInterval(()=>{
     n++;
 },1000,n);
 
-// setTimeout(()=>{
-//     clearInterval(timerId);
-//     console.log('Stopped after 100 seconds');
-// },100000);
+
