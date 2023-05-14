@@ -48,12 +48,9 @@ function validateCreditCard(numCardStr) {
 }
 
 let a ='9999-9999-8888-0000';
-console.log(a);
-
 let b = a.replace(/-/g,'');
+let c = [];
+c.map()
 
-//console.log(b[2]);
 
-//let c = Number(b);
 
-console.log(c + typeof c);

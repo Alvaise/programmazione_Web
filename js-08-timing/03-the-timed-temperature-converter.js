@@ -31,3 +31,14 @@ let timerId=setInterval(()=>{
 },1000,n);
 
 
+let nForSetTimeout = 0;
+let s = 1000;
+
+setTimeout(print=>{
+    console.log(celsiusToFahrenheit(nForSetTimeout));
+    
+},1000,nForSetTimeout);
+  
+
+
+
