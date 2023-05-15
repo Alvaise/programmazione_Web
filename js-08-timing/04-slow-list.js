@@ -1,5 +1,5 @@
 /**
- * @file: 04slowlist.js
+ * @file: 04-slowlist.js
  * @author: Alvise Spadea
  * Exercise on timing in Javascript
  * 
