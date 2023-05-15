@@ -20,7 +20,14 @@ function getSecondsToday() {
 }
 
 function getSecondsToTomorrow() {
-    
+    let rightNow = new Date();
+    let midnightTomorrow = new Date();
+    midnightTomorrow.setUTCDate(rightNow.getDate()+1);
+    midnightTomorrow.setUTCHours(00,00,00,00);
+    let tMToTomorrow = midnightTomorrow.getTime() - rightNow.getTime();
+    let secondsToMidnight = new Date(tMToTomorrow);
+    return secondsToMidnight/1000;
 }
 
 console.log(getSecondsToday());
+console.log(getSecondsToTomorrow()); 
