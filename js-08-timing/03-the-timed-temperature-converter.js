@@ -20,25 +20,33 @@
     let gF= (gC * 9/5) + 32;
    return gF;
 }
-let n=0;
-let timerId=setInterval(()=>{
-    console.log(celsiusToFahrenheit(n)); 
-    if(n>100){
-        clearInterval(timerId);
-        console.log('Stopped after 100');
-    }
-    n++;
-},1000,n);
+// let n=0;
+// let timerId=setInterval(()=>{
+//     console.log(celsiusToFahrenheit(n)); 
+//     if(n>100){
+//         clearInterval(timerId);
+//         console.log('Stopped after 100');
+//     }
+//     n++;
+// },1000,n);
 
 
-let nForSetTimeout = 0;
+
 let s = 1000;
 
-setTimeout(print=>{
+function rep(nForSetTimeout) {
     console.log(celsiusToFahrenheit(nForSetTimeout));
-    
-},1000,nForSetTimeout);
-  
+    nForSetTimeout++;
+    if (nForSetTimeout === 101) {
+        clearTimeout(timer)
+    }
+    let timer=setTimeout(rep,1000,nForSetTimeout);
+    return '';
+}
+
+let a = 0;
+setTimeout(rep,1000,a);
+
 
 
 
