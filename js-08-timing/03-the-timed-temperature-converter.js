@@ -20,15 +20,15 @@
     let gF= (gC * 9/5) + 32;
    return gF;
 }
-// let n=0;
-// let timerId=setInterval(()=>{
-//     console.log(celsiusToFahrenheit(n)); 
-//     if(n>100){
-//         clearInterval(timerId);
-//         console.log('Stopped after 100');
-//     }
-//     n++;
-// },1000,n);
+let n=0;
+let timerId=setInterval(()=>{
+    console.log(celsiusToFahrenheit(n)); 
+    if(n>100){
+        clearInterval(timerId);
+        console.log('Stopped after 100');
+    }
+    n++;
+},1000,n);
 
 
 
