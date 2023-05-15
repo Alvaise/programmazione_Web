@@ -44,3 +44,16 @@ let timerID=setInterval(()=>{
     i++;
 },1000,i);
 
+function rep(i) {
+     let timer= setTimeout(()=>{
+          console.log(itemList[i]);
+           i++;
+           if (i > itemList.length-1) {
+               clearTimeout(timer);
+               return 0;
+           }
+           rep(i);
+     },1000,i); 
+}
+
+rep(0);

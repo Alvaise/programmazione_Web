@@ -34,18 +34,20 @@ let timerId=setInterval(()=>{
 
 let s = 1000;
 
-function rep(nForSetTimeout) {
-    console.log(celsiusToFahrenheit(nForSetTimeout));
-    nForSetTimeout++;
-    if (nForSetTimeout === 101) {
-        clearTimeout(timer)
-    }
-    let timer=setTimeout(rep,1000,nForSetTimeout);
-    return '';
+
+function rep(i) {
+    let timer= setTimeout(()=>{
+         console.log(celsiusToFahrenheit(i));
+          i++;
+          if (i > 100) {
+              clearTimeout(timer);
+              return 0; 
+          }
+          rep(i);
+    },1000,i); 
 }
 
-let a = 0;
-setTimeout(rep,1000,a);
+rep(0);
 
 
 
