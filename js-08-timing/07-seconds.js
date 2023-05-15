@@ -11,11 +11,16 @@
  */
 
 function getSecondsToday() {
-    const d = new Date();
-    let midnight = d.setHours(0);
-    
+    let rightNow = new Date();
+    let midnightSameDay = new Date();
+    midnightSameDay.setUTCHours(00,00,00,00);
+    let tMFromMidnight = rightNow.getTime() - midnightSameDay.getTime();
+    let secondsFromMidnight = new Date(tMFromMidnight);
+    return secondsFromMidnight.getTime()/1000;
 }
 
 function getSecondsToTomorrow() {
     
 }
+
+console.log(getSecondsToday());

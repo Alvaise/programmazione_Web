@@ -107,5 +107,7 @@ years old (lie)`);
 //     }
 // setTimeout(sayHi, 1000);
 
-let d = new Date();
-console.log(d.getDay("2023-05-14"));
+let d = new Date("T00:00:00");
+let d2 = new Date();
+console.log(d.getTime());
+console.log(d2.getTime());
