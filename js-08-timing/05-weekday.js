@@ -10,6 +10,18 @@
  *        outputs the day in the correct language.
  */
 
-function getWeekDay() {
-    
+function getWeekDay(l) {
+    date = new Date();
+    const week = ['MO','TU','WE','TH','FR','SA','SU'];
+    const sett = ['LUN','MAR','MER','GIO','VEN','SAB','DOM'];
+    if (l==='en') {
+        return week[date.getDay()-1];
+    }
+    if (l==='it') {
+        return sett[date.getDay()-1];
+    }
+    throw new Error("language not supported");
 }
+
+console.log(getWeekDay('en')); 
+console.log(getWeekDay('it')); 

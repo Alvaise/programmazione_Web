@@ -108,4 +108,4 @@ years old (lie)`);
 // setTimeout(sayHi, 1000);
 
 let d = new Date();
-console.log(d.getHours());
+console.log(d.getDay("2023-05-14"));
