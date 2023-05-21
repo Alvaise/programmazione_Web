@@ -1,3 +1,4 @@
+// use let only when you are sure that the variable can change
 const books = [
     {
         title: 'The Design of EveryDay Things',
@@ -31,6 +32,8 @@ const imagesURL = [
     'https://m.media-amazon.com/images/I/81xqnfgEVRS.jpg',
     'https://m.media-amazon.com/images/I/81Ipdy263NL.jpg'
 ];
+
+// index is natively returned by forEach callback
 books.forEach((book, i) => {
     const li = document.createElement('li');
     const title = document.createElement('h2');
