@@ -107,7 +107,13 @@ years old (lie)`);
 //     }
 // setTimeout(sayHi, 1000);
 
-let d = new Date("T00:00:00");
-let d2 = new Date();
-console.log(d.getTime());
-console.log(d2.getTime());
+// let d = new Date("T00:00:00");
+// let d2 = new Date();
+// console.log(d.getTime());
+// console.log(d2.getTime());
+
+let text = document.getElementById("divA").textContent;
+
+console.log(text);
+
+document.getElementById("divA").textContent = "This text is different!";
