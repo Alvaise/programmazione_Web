@@ -1,4 +1,4 @@
-let books = [
+const books = [
     {
         title: 'The Design of EveryDay Things',
         author: 'Don Norman',
@@ -21,10 +21,9 @@ let books = [
     }
 ];
 
-let body = document.body;
-let head = document.head;
-let i = 0;
-let ul = document.createElement('ul');
+const body = document.body;
+const head = document.head;
+const ul = document.createElement('ul');
 body.appendChild(ul);
 const imagesURL = [
     'https://m.media-amazon.com/images/I/416Hql52NCL.jpg',
@@ -32,33 +31,32 @@ const imagesURL = [
     'https://m.media-amazon.com/images/I/81xqnfgEVRS.jpg',
     'https://m.media-amazon.com/images/I/81Ipdy263NL.jpg'
 ];
-books.forEach(element => {
-    let li = document.createElement('li');
-    let title = document.createElement('h2');
-    let author = document.createElement('h3');
-    title.textContent = books[i].title;
-    author.textContent = books[i].author;
+books.forEach((book, i) => {
+    const li = document.createElement('li');
+    const title = document.createElement('h2');
+    const author = document.createElement('h3');
+    title.textContent = book.title;
+    author.textContent = book.author;
     li.appendChild(title);
     li.appendChild(author);
     ul.appendChild(li);
     books[i].url = imagesURL[i];
-    let bookCover = document.createElement('img');
-    bookCover.alt = 'cover-'+ books[i].title;
+    const bookCover = document.createElement('img');
+    bookCover.alt = 'cover-'+ book.title;
     bookCover.src = imagesURL[i];
     bookCover.width = 200;
     li.appendChild(bookCover);
     if (books[i].alreadyRead) {
         li.style.backgroundColor = 'green';
-        let gifNoice = document.createElement('img');
+        const gifNoice = document.createElement('img');
         gifNoice.src = 'https://media.tenor.com/pEtOxcxh_xUAAAAC/noice-michael-rosen.gif';
         gifNoice.alt = 'gif-noice';
         li.appendChild(gifNoice);
     }else{
         li.style.backgroundColor = 'red';
-        let gifDisappointed = document.createElement('img');
+        const gifDisappointed = document.createElement('img');
         gifDisappointed.src = 'https://i.gifer.com/2Bz.gif';
         gifDisappointed.alt = 'gif-disappointed';
         li.appendChild(gifDisappointed);
     }
-    i++;
 });
