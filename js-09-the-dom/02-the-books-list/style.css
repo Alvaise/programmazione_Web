@@ -5,7 +5,6 @@ body{
 
 li{
     box-sizing: content-box;
-    display: inline;
     background-size: 300px 100px;
 }
 
