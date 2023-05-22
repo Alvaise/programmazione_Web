@@ -74,7 +74,7 @@ books.forEach((book, i) => {
     bookCover.src = imagesURL[i];
     bookCover.width = 200;
     li.appendChild(bookCover);
-    if (books[i].alreadyRead) {
+    if (book.alreadyRead) {
         li.style.backgroundColor = 'green';
         const gifNoice = document.createElement('img');
         gifNoice.src = 'https://media.tenor.com/pEtOxcxh_xUAAAAC/noice-michael-rosen.gif';
