@@ -1,0 +1,16 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: blueviolet;
+}
+
+li{
+    box-sizing: content-box;
+    background-size: 300px 100px;
+}
+
+h1{
+    background-image: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGJhM2FmYWQ5MGFiOTBhMjk0Y2U2YzY3ODVkYzgxZTU3ZWVlYTRmNCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/26tPdwMm4jyClgxTq/giphy.gif');
+
+}
+
+

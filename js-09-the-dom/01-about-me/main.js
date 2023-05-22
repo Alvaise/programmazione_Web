@@ -35,7 +35,7 @@ let head = document.head;
 let css = document.createElement('link');
 css.href ='style.css';
 css.rel ='stylesheet';
-setTimeout(()=>{head.appendChild(css);},4000,css);
+setTimeout(()=>{head.appendChild(css);},5000,css);
 
 
 
