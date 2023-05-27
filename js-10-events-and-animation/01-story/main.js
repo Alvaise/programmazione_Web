@@ -8,6 +8,7 @@
  * elements, make a story from them, and output that in the story div (like
  * "Joseph really likes pink cucumbers.")
  */
+
 /**
  * generates the story based on the input values and displays it in the story div.
  * - The function retrieves the current values of the form input elements (`noun`, `adjective`, and `person`).
