@@ -49,8 +49,28 @@ function areaOfCircle(radius) {
     console.log('The area for a circle with radius '+ radius+ ' is '+ area.toFixed(2));
     return area.toFixed(2);
 }
-/**
- * function that execute the functions halfNumber(), squareNumber(), areaOfCircle(), percentOF()
- * @param {*} n 
- * @returns empty string
- */
+
+//Event Listener for Button click
+document.getElementById('square-button').addEventListener('click',()=>{
+    let squareOutput = squareNumber(document.getElementById('square-input').value);
+    solution.textContent = 'Square of the number '+document.getElementById('square-input').value+': ' +squareOutput;
+});
+document.getElementById('half-num-button').addEventListener('click',()=>{
+    let halfNumOutput = halfNumber(document.getElementById('half-number-input').value);
+    solution.textContent = 'Half of the number '+document.getElementById('half-number-input').value+': ' +halfNumOutput;
+});
+document.getElementById('percent-button').addEventListener('click',()=>{
+    let percentOutput = percentOf(document.getElementById('num-1-per').value,document.getElementById('num-2-per').value);
+    solution.textContent = document.getElementById('num-1-per').value+' is '+percentOutput +'% of '+document.getElementById('num-2-per').value;
+});
+document.getElementById('area-calc-button').addEventListener('click',()=>{
+    let area = areaOfCircle(document.getElementById('radius').value);
+    solution.textContent = 'The area of a circle with a radius of '+ document.getElementById('radius').value +' is: '+area;
+});
+
+document.getElementById('square-input').addEventListener('keydown',(event)=>{
+    if (event.key==='Enter') {
+        let squareOutput = squareNumber(document.getElementById('square-input').value);
+        solution.textContent = 'Square of the number '+document.getElementById('square-input').value+': ' +squareOutput;
+    }
+});
