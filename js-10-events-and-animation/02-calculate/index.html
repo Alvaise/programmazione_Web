@@ -4,22 +4,40 @@
 <head>
     <meta charset="utf-8" />
     <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <label>Square this number:
-        <input type="number" id="square-input" size="2">
-    </label>
-    <button id="square-button">Calculate</button>
+    <div>
+        <label>Square this number:
+            <input type="number" id="square-input" size="2">
+        </label>
+        <button id="square-button">Calculate</button>
+    </div>
     <!--other inputs here -->
-    <label>Half this number:
-        <input type="number" id="half-number-input" size="2">
-    </label>
-    <button id="half-num-button">Calculate</button>
-    <label> this number:
-        <input type="number" id="half-number-input" size="2">
-    </label>
-    <button id="half-num-button">Calculate</button>
+    <div>
+
+        <label>Half this number:
+            <input type="number" id="half-number-input" size="2">
+        </label>
+        <button id="half-num-button">Calculate</button>
+    </div>
+    <div>
+
+        <label>Percent of this number:
+            <input type="number" id="num-1-per" size="2">
+        </label>
+        <label>in this number:
+            <input type="number" id="num-2-per" size="2">
+        </label>
+        <button id="percent-button">Calculate</button>
+    </div>
+    <div>
+        <label>Area of the circle given this radius:
+            <input type="number" id="radius" size="2">
+        </label>
+        <button id="area-calc-button">Calculate</button>
+    </div>
     <div id="solution"></div>
 </body>
 <script src="main.js"></script>
