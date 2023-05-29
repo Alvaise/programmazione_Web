@@ -1,0 +1,19 @@
+{
+    "name":"",
+    "manufacturer":"",
+    "chassis":"",
+    "color":"",
+    "tyres":{
+        "manufacturer":"",
+        "rimSize":18,
+        "pressure":[26.0,26.5,25.5,26.5]
+    },
+    "crashed":false,
+    "engine":{
+        "manufacturer":"",
+        "cilynder": 6,
+        "type":["naturally-aspirated","turbo"],
+        "nTurbo":null,
+          
+    }
+}

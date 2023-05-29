@@ -112,8 +112,11 @@ years old (lie)`);
 // console.log(d.getTime());
 // console.log(d2.getTime());
 
-let text = document.getElementById("divA").textContent;
+// let text = document.getElementById("divA").textContent;
 
-console.log(text);
+// console.log(text);
 
-document.getElementById("divA").textContent = "This text is different!";
+// document.getElementById("divA").textContent = "This text is different!";
+
+let json = JSON.stringify(13);
+console.log(typeof json);
