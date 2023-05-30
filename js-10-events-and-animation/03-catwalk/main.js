@@ -14,3 +14,56 @@
  * image and have it continue the walk as in variant 2
  */
 
+let mL = 0
+let dir = 1; // 1 for moving forward, -1 for moving backward
+function catWalk(i) {
+    let img = document.getElementsByTagName('img')[0];
+    let screenWidth = window.innerWidth;
+    const catWidth = img.width;
+
+    if (i >= screenWidth / 2 - catWidth / 2 && i <= screenWidth / 2 + catWidth / 2) {
+        img.src = "https://clipart-library.com/images/6Tro9gA7c.gif";
+        setTimeout(() => {
+            img.src = "https://clipart-library.com/images/6Tro9gA7c.gif";
+        }, 10000);
+    }
+    img.style.marginLeft = i + 'px';
+    return screenWidth;
+}
+//variant 1
+/*setInterval(()=>{
+    let sW = catWalk(mL);    
+    mL+=10;
+    if (mL>=sW) {
+        mL=0;
+        }
+},50);*/
+/*setInterval(()=>{
+    let sW = catWalk(mL);
+    if (dir === 1) {
+        mL += 10;
+        if (mL >= sW) {
+          dir = -1; // Change direction to move backward
+        }
+      } else {
+        mL -= 10;
+        if (mL <= 0) {
+          dir = 1; // Change direction to move forward
+        }
+      }
+},50);*/
+setInterval(()=>{
+let sW = catWalk(mL);
+if (dir === 1) {
+    mL += 10;
+    if (mL >= sW) {
+        dir = -1; // Change direction to move backward
+    }
+} else {
+    mL -= 10;
+    if (mL <= 0) {
+        dir = 1; // Change direction to move forward
+    }
+}
+}, 50);
+
