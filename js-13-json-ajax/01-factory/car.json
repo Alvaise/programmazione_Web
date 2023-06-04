@@ -1,19 +1,14 @@
 {
-    "name":"",
-    "manufacturer":"",
-    "chassis":"",
-    "color":"",
-    "tyres":{
-        "manufacturer":"",
-        "rimSize":18,
-        "pressure":[26.0,26.5,25.5,26.5]
-    },
-    "crashed":false,
-    "engine":{
-        "manufacturer":"",
-        "cilynder": 6,
-        "type":["naturally-aspirated","turbo"],
-        "nTurbo":null,
-          
-    }
+  "brand": "Toyota",
+  "model": "Camry",
+  "year": 2022,
+  "color": "Silver",
+  "isElectric": false,
+  "seats": 5,
+  "features": ["Bluetooth", "Backup camera", "Cruise control"],
+  "owner": null,
+  "insurance": {
+    "provider": "ABC Insurance",
+    "expiryDate": "2023-12-31"
+  }
 }

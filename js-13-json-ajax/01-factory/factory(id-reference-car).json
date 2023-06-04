@@ -1,0 +1,19 @@
+{
+    "name": "XYZ Motors",
+    "location": "City ABC",
+    "yearEstablished": 2005,
+    "cars": [
+      {
+        "id": 1,
+        "brand": "Toyota",
+        "model": "Camry"
+      },
+      {
+        "id": 2,
+        "brand": "Honda",
+        "model": "Civic"
+      }
+    ]
+  }
+  
+  

@@ -1,0 +1,36 @@
+{
+    "name": "XYZ Motors",
+    "location": "City ABC",
+    "yearEstablished": 2005,
+    "cars": [
+      {
+        "brand": "Toyota",
+        "model": "Camry",
+        "year": 2022,
+        "color": "Silver",
+        "isElectric": false,
+        "seats": 5,
+        "features": ["Bluetooth", "Backup camera", "Cruise control"],
+        "owner": null,
+        "insurance": {
+          "provider": "ABC Insurance",
+          "expiryDate": "2023-12-31"
+        }
+      },
+      {
+        "brand": "Honda",
+        "model": "Civic",
+        "year": 2021,
+        "color": "Black",
+        "isElectric": false,
+        "seats": 5,
+        "features": ["Apple CarPlay", "Android Auto", "Lane departure warning"],
+        "owner": null,
+        "insurance": {
+          "provider": "XYZ Insurance",
+          "expiryDate": "2023-06-30"
+        }
+      }
+    ]
+  }
+  

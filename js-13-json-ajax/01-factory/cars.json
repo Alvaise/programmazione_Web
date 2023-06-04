@@ -1,0 +1,78 @@
+[
+    {
+      "id": 1,
+      "brand": "Toyota",
+      "model": "Camry",
+      "year": 2022,
+      "color": "Silver",
+      "isElectric": false,
+      "seats": 5,
+      "features": ["Bluetooth", "Backup camera", "Cruise control"],
+      "owner": null,
+      "insurance": {
+        "provider": "ABC Insurance",
+        "expiryDate": "2023-12-31"
+      }
+    },
+    {
+      "id": 2,
+      "brand": "Honda",
+      "model": "Civic",
+      "year": 2021,
+      "color": "Black",
+      "isElectric": false,
+      "seats": 5,
+      "features": ["Apple CarPlay", "Android Auto", "Lane departure warning"],
+      "owner": null,
+      "insurance": {
+        "provider": "XYZ Insurance",
+        "expiryDate": "2023-06-30"
+      }
+    },
+    {
+      "id": 3,
+      "brand": "Ford",
+      "model": "Mustang",
+      "year": 2023,
+      "color": "Red",
+      "isElectric": true,
+      "seats": 4,
+      "features": ["Leather seats", "Navigation system", "Heated seats"],
+      "owner": null,
+      "insurance": {
+        "provider": "DEF Insurance",
+        "expiryDate": "2024-02-28"
+      }
+    },
+    {
+      "id": 4,
+      "brand": "BMW",
+      "model": "X5",
+      "year": 2022,
+      "color": "White",
+      "isElectric": true,
+      "seats": 7,
+      "features": ["Panoramic sunroof", "Adaptive cruise control", "Parking assistant"],
+      "owner": null,
+      "insurance": {
+        "provider": "GHI Insurance",
+        "expiryDate": "2023-11-30"
+      }
+    },
+    {
+      "id": 5,
+      "brand": "Tesla",
+      "model": "Model 3",
+      "year": 2023,
+      "color": "Blue",
+      "isElectric": true,
+      "seats": 5,
+      "features": ["Autopilot", "Large touchscreen display", "Fast acceleration"],
+      "owner": null,
+      "insurance": {
+        "provider": "JKL Insurance",
+        "expiryDate": "2023-09-30"
+      }
+    }
+  ]
+  
